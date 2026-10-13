@@ -1,0 +1,193 @@
+{
+ "held_out_panel": {
+  "people": 14,
+  "readers_per_portrait": 2,
+  "domains": {
+   "A": {
+    "readers_vs_source": {
+     "n": 14,
+     "spearman_source": 0.5325232579670182,
+     "mae_source": 0.5605158730158729,
+     "signed_bias_estimate_minus_source": 0.2168650793650794
+    },
+    "readers_vs_source_pooled_95ci": [
+     -0.05294829345149279,
+     0.9144719116119209
+    ],
+    "readers_vs_source_within_cohort": {
+     "twin": {
+      "people": 7,
+      "spearman": 0.7041868508280461
+     },
+     "harmonies": {
+      "people": 7,
+      "spearman": 0.3302891295379082
+     }
+    },
+    "automated_direct_vs_source": {
+     "n": 14,
+     "spearman_source": 0.8089794506988724,
+     "mae_source": 0.35039682539682543,
+     "signed_bias_estimate_minus_source": 0.34722222222222227
+    },
+    "automated_questionnaire_vs_source": {
+     "n": 14,
+     "spearman_source": 0.8392688239324375,
+     "mae_source": 0.5476190476190476,
+     "signed_bias_estimate_minus_source": 0.5476190476190476
+    }
+   },
+   "C": {
+    "readers_vs_source": {
+     "n": 14,
+     "spearman_source": 0.8233995584988962,
+     "mae_source": 0.33769841269841266,
+     "signed_bias_estimate_minus_source": 0.2083333333333334
+    },
+    "readers_vs_source_pooled_95ci": [
+     0.41687379714509093,
+     0.9829091381198704
+    ],
+    "readers_vs_source_within_cohort": {
+     "twin": {
+      "people": 7,
+      "spearman": 0.8468812149338254
+     },
+     "harmonies": {
+      "people": 7,
+      "spearman": 0.8571428571428571
+     }
+    },
+    "automated_direct_vs_source": {
+     "n": 14,
+     "spearman_source": 0.9844419723161874,
+     "mae_source": 0.24682539682539675,
+     "signed_bias_estimate_minus_source": 0.0690476190476191
+    },
+    "automated_questionnaire_vs_source": {
+     "n": 14,
+     "spearman_source": 0.9349747226137946,
+     "mae_source": 0.3650793650793651,
+     "signed_bias_estimate_minus_source": 0.0793650793650794
+    }
+   },
+   "E": {
+    "readers_vs_source": {
+     "n": 14,
+     "spearman_source": 0.919351047862757,
+     "mae_source": 0.33392857142857146,
+     "signed_bias_estimate_minus_source": 0.008928571428571461
+    },
+    "readers_vs_source_pooled_95ci": [
+     0.7199469058734655,
+     0.9885555117017554
+    ],
+    "readers_vs_source_within_cohort": {
+     "twin": {
+      "people": 7,
+      "spearman": 0.9549937104572925
+     },
+     "harmonies": {
+      "people": 7,
+      "spearman": 0.8468812149338254
+     }
+    },
+    "automated_direct_vs_source": {
+     "n": 14,
+     "spearman_source": 0.9833941313939413,
+     "mae_source": 0.26428571428571435,
+     "signed_bias_estimate_minus_source": 0.017857142857142936
+    },
+    "automated_questionnaire_vs_source": {
+     "n": 14,
+     "spearman_source": 0.9533333333333334,
+     "mae_source": 0.35714285714285715,
+     "signed_bias_estimate_minus_source": -0.017857142857142856
+    }
+   },
+   "N": {
+    "readers_vs_source": {
+     "n": 14,
+     "spearman_source": 0.6319305999758523,
+     "mae_source": 0.8732142857142857,
+     "signed_bias_estimate_minus_source": -0.6089285714285714
+    },
+    "readers_vs_source_pooled_95ci": [
+     -0.013856960750067034,
+     0.9725400457665904
+    ],
+    "readers_vs_source_within_cohort": {
+     "twin": {
+      "people": 7,
+      "spearman": 0.6
+     },
+     "harmonies": {
+      "people": 7,
+      "spearman": 0.38188130791298663
+     }
+    },
+    "automated_direct_vs_source": {
+     "n": 14,
+     "spearman_source": 0.9179623452280803,
+     "mae_source": 0.6303571428571428,
+     "signed_bias_estimate_minus_source": -0.4625
+    },
+    "automated_questionnaire_vs_source": {
+     "n": 14,
+     "spearman_source": 0.9108865383319075,
+     "mae_source": 0.9285714285714286,
+     "signed_bias_estimate_minus_source": -0.6607142857142857
+    }
+   },
+   "O": {
+    "readers_vs_source": {
+     "n": 14,
+     "spearman_source": 0.8004862243748839,
+     "mae_source": 0.3339285714285715,
+     "signed_bias_estimate_minus_source": 0.023214285714285854
+    },
+    "readers_vs_source_pooled_95ci": [
+     0.4126994737275216,
+     0.9673002806529084
+    ],
+    "readers_vs_source_within_cohort": {
+     "twin": {
+      "people": 7,
+      "spearman": 0.9265616458263765
+     },
+     "harmonies": {
+      "people": 7,
+      "spearman": 0.5946187253790689
+     }
+    },
+    "automated_direct_vs_source": {
+     "n": 14,
+     "spearman_source": 0.9774774774774775,
+     "mae_source": 0.21428571428571438,
+     "signed_bias_estimate_minus_source": 0.2071428571428572
+    },
+    "automated_questionnaire_vs_source": {
+     "n": 14,
+     "spearman_source": 0.9776189077071059,
+     "mae_source": 0.21428571428571447,
+     "signed_bias_estimate_minus_source": 0.028571428571428723
+    }
+   }
+  },
+  "readers_vs_source_mean_spearman": 0.7415381377358815
+ },
+ "september_panels_from_facts": [
+  {
+   "section": "human readers (original)",
+   "fact": "ESCS portraits: Spearman / CCC / MAE (mean of two readers; 12 readers, 18 portraits)",
+   "value": "0.549/0.335/0.773",
+   "source": "cloudresearch_repeated_readers/results_20260916/REPORT.md"
+  },
+  {
+   "section": "human readers (original)",
+   "fact": "BFI-44 development portraits: n portraits / Spearman / MAE",
+   "value": "18/0.672/0.453",
+   "source": "prolific_bfi44_20260916/FINAL_READOUT.md"
+  }
+ ]
+}

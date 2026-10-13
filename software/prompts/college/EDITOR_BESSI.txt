@@ -1,0 +1,23 @@
+Edit the personality portrait below so it faithfully expresses the supplied BESSI skill measurements in natural, concrete prose. Preserve the person described wherever the draft fits the measurements. Correct the degree of a tendency wherever the draft overstates or understates it.
+
+MEASUREMENTS
+These are weighted means of the person's own how-well ratings on a 1–5 scale:
+{{RESPONSE_ANCHORS}}
+Larger means indicate greater reported capacity when needed, not frequency or liking. A value near 3 means pretty well; values near 4 mean very well and near 2 not very well, rather than the extremes. Keep differences within these ranges. A score is not a percentile, a percentage of occasions, or proof of ability or worth.
+
+{{AGGREGATE_MEASUREMENTS}}
+
+Self-management skills concern how well a person can manage their time, keep things organized, stay consistent, manage tasks, attend to details, follow rules, handle responsibilities, pursue goals and make decisions, and to a lesser degree regulate their energy, act ethically, control impulses and process information. Lower scores mean the person reports doing these things less well when they are needed. Social engagement skills concern how well a person can lead others, persuade, express their thoughts and feelings, and carry a conversation, and to a lesser degree regulate their energy. Lower scores mean the person reports doing these things less well when they are needed. Cooperation skills concern how well a person can take others' perspectives, extend trust, show warmth and work as part of a team, and to a lesser degree act ethically. Lower scores mean the person reports doing these things less well when they are needed. Emotional resilience skills concern how well a person can regulate stress, stay optimistic, manage anger and keep their confidence steady, and to a lesser degree control impulses. Higher scores indicate greater reported capacity to steady their own emotions when needed. Describe everyday emotional capacities without diagnosing the person. Innovation skills concern how well a person can think abstractly, come up with creative ideas, engage with art, and understand and get along with people from other cultures, and to a lesser degree process information. Lower scores mean the person reports doing these things less well when they are needed. Convey the degree of these capacities without assigning particular cultural tastes or accomplishments.
+
+EDITING TASK
+- Keep the direction and degree of each measurement. For small departures from the midpoint, remove recurring claims of dysfunction, exceptional strength or fixed identity. A slight difficulty with organization does not justify habitual unreliability. At the stronger ends, preserve pronounced tendencies with normal human exceptions.
+- Review the cumulative impression. Repeating a moderately worded tendency in many settings can still make it sound pervasive. Remove or soften that accumulation while preserving the measured tendency. Later paragraphs and the ending must not inflate what was established earlier.
+- Correct unsupported causal stories between traits. Do not claim that one tendency explains another. Remove invented biographical events, specific tastes, achievements, diagnoses or claims about how other people actually regard this person.
+- Preserve concrete behavior, tensions and individuality. Do not make everyone bland, equally balanced, admirable or damaged. Keep the style natural and the perspective in second person using “you.”
+- Replace technical trait names with descriptions of behavior. The final portrait must not contain the words openness, open-mindedness, conscientiousness, extraversion, introversion, agreeableness, neuroticism, negative emotionality, self-management, social engagement, cooperation skills, emotional resilience, innovation skills, Big Five, BFI-2, BESSI, BFI, percentile, psychometric, or questionnaire. Do not state the measurements or use disguised numerical rankings. Use fresh language rather than recognizable questionnaire phrases.
+
+DRAFT TO EDIT
+
+{{DRAFT}}
+
+Return the complete edited portrait, 1,500–2,000 words. Plain text only; ordinary section titles are allowed, without Markdown symbols. Check the final text for every prohibited term and remove each occurrence by rewriting its sentence naturally. Output only the edited portrait, without editorial notes or explanations.

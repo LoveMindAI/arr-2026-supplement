@@ -1,0 +1,20 @@
+\begin{table*}[!t]
+\centering\small
+\begin{tabular}{@{}lrrrrrrr@{}}
+\toprule
+ & & \multicolumn{3}{c}{Mean rank correlation} & \multicolumn{3}{c}{Mean absolute error}\\
+\cmidrule(lr){3-5}\cmidrule(l){6-8}
+Panel & People & Luna & Haiku & Mistral & Luna & Haiku & Mistral\\
+\midrule
+Twin, direct & 150 & .957 & .939 & .959 & .368 & .274 & .290\\
+Twin, questionnaire & 150 & .925 & .925 & .902 & .530 & .296 & .568\\
+Harmonies, direct & 148 & .957 & .921 & .949 & .390 & .209 & .314\\
+Harmonies, questionnaire & 148 & .940 & .903 & .929 & .554 & .300 & .608\\
+Indonesia, direct & 100 & .924 & .898 & .928 & .393 & .293 & .301\\
+College personality & 200 & .966 & .941 & .963 & .382 & .234 & .309\\
+College skills & 200 & .943 & .911 & .940 & .320 & .197 & .302\\
+\bottomrule
+\end{tabular}
+\caption{Matched automated readback against measured source scores for GPT-5.6-Luna, Claude Haiku 5.5 and Mistral Large 4. Rank correlations are averaged across five domains; mean absolute error is on the 1--5 scale. Each row uses the same portraits and task for all three readers. Indonesia uses the 100-person October subset of the original 150-person cohort.}
+\label{tab:readers_ready}
+\end{table*}

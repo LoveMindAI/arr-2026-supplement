@@ -1,0 +1,31 @@
+You are translating private BESSI skill measurements into a narrative identity document for an adult.
+Portray this particular person faithfully, including combinations of tendencies that do not form a familiar character type. Keep biography generic and non-identifying: do not invent named locations, occupation specifics, ethnicity, religion, politics, sexuality, diagnoses, family structure, or major life events.
+
+INTERPRETING THE MEASUREMENTS
+The five measurements are weighted means of the person's own ratings, on a 1–5 scale, of how well they can do particular things when needed. The response anchors are:
+{{RESPONSE_ANCHORS}}
+Larger values indicate greater reported capacity; no response is reversed. Read the degree literally against these anchors. A value near 3 means the person reports doing these things pretty well; values near 4 mean very well and values near 2 not very well; only values near 5 or 1 reach the strength of the endpoints. Preserve differences within these ranges rather than rounding the person into a category. These are reported capacities when needed, not how often the person does these things or how much they like doing them. A mean is not a percentile, a percentage of occasions, or an objective measure of ability or worth. The value 3.00 is the arithmetic midpoint, not necessarily the population average. Keep this explanation and all numbers outside the portrait.
+
+BESSI DOMAIN MEANINGS
+Use these meanings to interpret the measurements, then express them through ordinary behavior in the portrait.
+- Self-management skills concern how well a person can manage their time, keep things organized, stay consistent, manage tasks, attend to details, follow rules, handle responsibilities, pursue goals and make decisions, and to a lesser degree regulate their energy, act ethically, control impulses and process information. Lower scores mean the person reports doing these things less well when they are needed.
+- Social engagement skills concern how well a person can lead others, persuade, express their thoughts and feelings, and carry a conversation, and to a lesser degree regulate their energy. Lower scores mean the person reports doing these things less well when they are needed.
+- Cooperation skills concern how well a person can take others' perspectives, extend trust, show warmth and work as part of a team, and to a lesser degree act ethically. Lower scores mean the person reports doing these things less well when they are needed.
+- Emotional resilience skills concern how well a person can regulate stress, stay optimistic, manage anger and keep their confidence steady, and to a lesser degree control impulses. Higher scores indicate greater reported capacity to steady their own emotions when needed. Describe everyday emotional capacities without diagnosing the person.
+- Innovation skills concern how well a person can think abstractly, come up with creative ideas, engage with art, and understand and get along with people from other cultures, and to a lesser degree process information. Lower scores mean the person reports doing these things less well when they are needed. Convey the degree of these capacities without assigning particular cultural tastes or accomplishments.
+
+PERSONALITY MEASUREMENTS
+
+{{AGGREGATE_MEASUREMENTS}}
+
+Write 1,500–2,000 words in second person using “you” throughout.
+
+WRITING REQUIREMENTS
+- Preserve the direction and magnitude of each supplied tendency. Make the degree clear through ordinary qualifications and the scope of the behavior. A modest inclination must remain modest in every paragraph; one qualified opening does not permit stronger claims later.
+- Give each capacity a behavioral expression grounded in its measurement: what the person can manage, and how well, when a situation calls for it. A capacity is available when needed, not something the person does constantly. Preserve tensions without inventing a psychological explanation for them. A tendency in one area does not determine another.
+- Do not make the person nicer, healthier, more competent, or more internally consistent than the measurements warrant. Do not turn a lower score into a character flaw, incapacity, or diagnosis.
+- Use ordinary behavioral examples: routines, work habits, social timing, decisions, small conflicts, emotional reactions, private attention, and the way the person narrates events. Let these illustrate tendencies without presenting invented incidents as facts about the person's life. Keep normal exceptions and competing demands visible in proportion to the measured degree.
+- Express the meaning in fresh, natural language. Keep scores, rankings, technical psychometric vocabulary, instrument titles, and recognizable questionnaire wording outside the portrait. Do not use the labels openness, open-mindedness, conscientiousness, extraversion, introversion, agreeableness, neuroticism, negative emotionality, self-management, social engagement, cooperation skills, emotional resilience, innovation skills, Big Five, BFI-2, or BESSI.
+- Keep the prose entirely about the person. Do not refer to AI, models, assistants, systems, simulations, roleplay, prompts, or research participation.
+
+Write concrete, natural prose rather than a clinical inventory. Plain text only, without Markdown symbols. Everyday-language section headers are allowed. Output only the identity document.

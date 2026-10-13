@@ -1,0 +1,28 @@
+\begin{table*}[!t]
+\centering\small
+\begin{tabular}{@{}llrr@{}}
+\toprule
+Model & Added ratings & Distinctive accuracy [95\% CI] & Amplitude\\
+\midrule
+Gemini-3-Flash & None & .206 [.190, .223] & 1.88\\
+Gemini-3-Flash & 4 own countertypical & .244 [.229, .260] & 1.70\\
+Gemini-3-Flash & 4 own typical & .191 [.175, .209] & 1.51\\
+Gemini-3-Flash & 4 stranger countertypical & .153 [.137, .170] & 1.64\\
+Gemini-3-Flash & 12 own countertypical & .288 [.273, .304] & 1.57\\
+\midrule
+Qwen3.7-plus & None & .167 [.151, .182] & 1.92\\
+Qwen3.7-plus & 4 own countertypical & .172 [.157, .188] & 1.64\\
+Qwen3.7-plus & 4 own typical & .143 [.127, .159] & 1.49\\
+Qwen3.7-plus & 4 stranger countertypical & .127 [.110, .143] & 1.64\\
+Qwen3.7-plus & 12 own countertypical & .201 [.186, .217] & 1.46\\
+\midrule
+MiniMax-M3 & None & .138 [.122, .154] & 1.64\\
+MiniMax-M3 & 4 own countertypical & .172 [.156, .187] & 1.48\\
+MiniMax-M3 & 4 own typical & .126 [.110, .143] & 1.36\\
+MiniMax-M3 & 4 stranger countertypical & .113 [.096, .129] & 1.50\\
+MiniMax-M3 & 12 own countertypical & .204 [.189, .220] & 1.40\\
+\bottomrule
+\end{tabular}
+\caption{Personal-evidence follow-up. All entries use 467 people and the same unshown-item mask across arms within each model. Accuracy intervals are participant bootstraps; amplitude entries are point estimates relative to observed human ratings.}
+\label{tab:exceptions_full}
+\end{table*}

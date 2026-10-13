@@ -1,0 +1,242 @@
+{
+ "flash|C-fac": {
+  "amplitude_ratio_pooled": 1.8938969419716885,
+  "ci95": [
+   1.763769664585476,
+   2.024024219357901
+  ],
+  "direction_r": 0.5166585807932578,
+  "per_item_ratio_median": 1.895033055892548,
+  "items_with_human_signal": 109
+ },
+ "glm52|C-fac": {
+  "amplitude_ratio_pooled": 1.880809241136513,
+  "ci95": [
+   1.7522975948063046,
+   2.009320887466721
+  ],
+  "direction_r": 0.5064663877371915,
+  "per_item_ratio_median": 1.910273598245264,
+  "items_with_human_signal": 109
+ },
+ "inkling|C-fac": {
+  "amplitude_ratio_pooled": 1.2761978700145995,
+  "ci95": [
+   1.1917559821238612,
+   1.3606397579053378
+  ],
+  "direction_r": 0.4482934826376707,
+  "per_item_ratio_median": 1.2819623789980366,
+  "items_with_human_signal": 109
+ },
+ "mimopro|C-fac": {
+  "amplitude_ratio_pooled": 1.5376661360912116,
+  "ci95": [
+   1.4229964348212871,
+   1.652335837361136
+  ],
+  "direction_r": 0.46245548215509835,
+  "per_item_ratio_median": 1.5295564579838759,
+  "items_with_human_signal": 109
+ },
+ "minimaxm3|C-fac": {
+  "amplitude_ratio_pooled": 1.5245393163019567,
+  "ci95": [
+   1.4076048778905663,
+   1.641473754713347
+  ],
+  "direction_r": 0.4669105854368097,
+  "per_item_ratio_median": 1.561707734456394,
+  "items_with_human_signal": 109
+ },
+ "qwen37|C-fac": {
+  "amplitude_ratio_pooled": 1.9197745595281177,
+  "ci95": [
+   1.7940217463347368,
+   2.0455273727214984
+  ],
+  "direction_r": 0.5012258526104347,
+  "per_item_ratio_median": 1.9352688408647896,
+  "items_with_human_signal": 109
+ },
+ "sonnet5|C-fac": {
+  "amplitude_ratio_pooled": 1.3722089245177798,
+  "ci95": [
+   1.2843214558692577,
+   1.4600963931663018
+  ],
+  "direction_r": 0.4719760961685444,
+  "per_item_ratio_median": 1.405314431207764,
+  "items_with_human_signal": 109
+ },
+ "terra|C-fac": {
+  "amplitude_ratio_pooled": 1.8142791398477933,
+  "ci95": [
+   1.6896563926998056,
+   1.938901886995781
+  ],
+  "direction_r": 0.4978675427849887,
+  "per_item_ratio_median": 1.8319438590913857,
+  "items_with_human_signal": 109
+ },
+ "flash|C-cardBF": {
+  "amplitude_ratio_pooled": 2.080612210045015,
+  "ci95": [
+   1.939095922569922,
+   2.222128497520108
+  ],
+  "direction_r": 0.4749568655119029,
+  "per_item_ratio_median": 2.1406154595452715,
+  "items_with_human_signal": 109
+ },
+ "glm52|C-cardBF": {
+  "amplitude_ratio_pooled": 1.8832494914808875,
+  "ci95": [
+   1.7557618264375146,
+   2.0107371565242604
+  ],
+  "direction_r": 0.4580860946033367,
+  "per_item_ratio_median": 1.9264732200726802,
+  "items_with_human_signal": 109
+ },
+ "inkling|C-cardBF": {
+  "amplitude_ratio_pooled": 1.6080504406497678,
+  "ci95": [
+   1.498224059709555,
+   1.7178768215899805
+  ],
+  "direction_r": 0.4461057406901787,
+  "per_item_ratio_median": 1.6595261050523185,
+  "items_with_human_signal": 109
+ },
+ "mimopro|C-cardBF": {
+  "amplitude_ratio_pooled": 1.5786353780195077,
+  "ci95": [
+   1.4574657493457108,
+   1.6998050066933046
+  ],
+  "direction_r": 0.4575104627391527,
+  "per_item_ratio_median": 1.6013392505198847,
+  "items_with_human_signal": 109
+ },
+ "minimaxm3|C-cardBF": {
+  "amplitude_ratio_pooled": 1.7229874160909036,
+  "ci95": [
+   1.6118774771226083,
+   1.8340973550591988
+  ],
+  "direction_r": 0.46789550966726007,
+  "per_item_ratio_median": 1.7408595795261363,
+  "items_with_human_signal": 109
+ },
+ "qwen37|C-cardBF": {
+  "amplitude_ratio_pooled": 1.8373152543585818,
+  "ci95": [
+   1.70470501338066,
+   1.9699254953365035
+  ],
+  "direction_r": 0.46893514251748025,
+  "per_item_ratio_median": 1.8923096585805421,
+  "items_with_human_signal": 109
+ },
+ "sonnet5|C-cardBF": {
+  "amplitude_ratio_pooled": 1.5803383930540131,
+  "ci95": [
+   1.4724712841153567,
+   1.6882055019926696
+  ],
+  "direction_r": 0.4719331030964133,
+  "per_item_ratio_median": 1.6200769306984644,
+  "items_with_human_signal": 109
+ },
+ "terra|C-cardBF": {
+  "amplitude_ratio_pooled": 1.9702502187459325,
+  "ci95": [
+   1.835250845407341,
+   2.1052495920845242
+  ],
+  "direction_r": 0.4836113593392441,
+  "per_item_ratio_median": 1.9439397754622136,
+  "items_with_human_signal": 109
+ },
+ "flash|C-cardFull": {
+  "amplitude_ratio_pooled": 2.0376815881445967,
+  "ci95": [
+   1.9029341495706655,
+   2.172429026718528
+  ],
+  "direction_r": 0.4761641458083376,
+  "per_item_ratio_median": 2.0748538491217676,
+  "items_with_human_signal": 109
+ },
+ "glm52|C-cardFull": {
+  "amplitude_ratio_pooled": 1.879179292241817,
+  "ci95": [
+   1.7428388241941681,
+   2.015519760289466
+  ],
+  "direction_r": 0.4666090987953431,
+  "per_item_ratio_median": 1.9361852079043504,
+  "items_with_human_signal": 109
+ },
+ "inkling|C-cardFull": {
+  "amplitude_ratio_pooled": 1.6218542523509298,
+  "ci95": [
+   1.516465696148501,
+   1.7272428085533587
+  ],
+  "direction_r": 0.45084965245014835,
+  "per_item_ratio_median": 1.695381299511861,
+  "items_with_human_signal": 109
+ },
+ "mimopro|C-cardFull": {
+  "amplitude_ratio_pooled": 1.5896255172822438,
+  "ci95": [
+   1.4706652363205157,
+   1.7085857982439718
+  ],
+  "direction_r": 0.4563438175827057,
+  "per_item_ratio_median": 1.6257858534766356,
+  "items_with_human_signal": 109
+ },
+ "minimaxm3|C-cardFull": {
+  "amplitude_ratio_pooled": 1.7117070533340253,
+  "ci95": [
+   1.5946802408590008,
+   1.8287338658090497
+  ],
+  "direction_r": 0.4623585198036509,
+  "per_item_ratio_median": 1.778634899226535,
+  "items_with_human_signal": 109
+ },
+ "qwen37|C-cardFull": {
+  "amplitude_ratio_pooled": 1.854876374127386,
+  "ci95": [
+   1.7312133865538855,
+   1.9785393617008864
+  ],
+  "direction_r": 0.4688177547889742,
+  "per_item_ratio_median": 1.8766203697993735,
+  "items_with_human_signal": 109
+ },
+ "sonnet5|C-cardFull": {
+  "amplitude_ratio_pooled": 1.5924918213723525,
+  "ci95": [
+   1.4790780569255513,
+   1.7059055858191536
+  ],
+  "direction_r": 0.4769994024497155,
+  "per_item_ratio_median": 1.6305592604652923,
+  "items_with_human_signal": 109
+ },
+ "terra|C-cardFull": {
+  "amplitude_ratio_pooled": 1.9601609448003268,
+  "ci95": [
+   1.8279493329632048,
+   2.0923725566374487
+  ],
+  "direction_r": 0.4840626909622494,
+  "per_item_ratio_median": 1.9403882125669827,
+  "items_with_human_signal": 109
+ }
+}

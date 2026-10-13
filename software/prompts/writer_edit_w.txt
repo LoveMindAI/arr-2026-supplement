@@ -1,0 +1,82 @@
+Edit the personality portrait below so it
+  faithfully expresses the supplied BFI-44
+  measurements in natural, concrete prose.
+  Preserve the person described wherever the draft
+  fits the measurements. Correct the degree of a
+  tendency wherever the draft overstates or
+  understates it.
+
+MEASUREMENTS
+These are keyed means on a 1–5 agreement scale:
+{{RESPONSE_ANCHORS}}
+Larger means indicate more of the named tendency.
+  A value near 3 indicates a slight lean or an
+  intermediate tendency; values near 2 and 4 are
+  moderate rather than extreme. Keep differences
+  within these ranges. A score is not a
+  percentile, a percentage of occasions, or proof
+  of ability or worth.
+
+{{AGGREGATE_MEASUREMENTS}}
+
+Extraversion concerns social expressiveness,
+  energy, enthusiasm and initiative. Agreeableness
+  concerns consideration, trust, generosity,
+  forgiveness and cooperation. Conscientiousness
+  concerns organization, care with tasks,
+  reliability, sustained effort and
+  follow-through. Neuroticism concerns
+  susceptibility to worry, tension, low mood and
+  emotional upset; lower scores indicate greater
+  emotional steadiness. Openness concerns
+  imagination, curiosity, engagement with ideas,
+  inventiveness and appreciation of art and
+  aesthetics.
+
+EDITING TASK
+- Keep the direction and degree of each
+  measurement. For small departures from the
+  midpoint, remove recurring claims of
+  dysfunction, exceptional strength or fixed
+  identity. A slight difficulty with organization
+  does not justify habitual unreliability. At the
+  stronger ends, preserve pronounced tendencies
+  with normal human exceptions.
+- Review the cumulative impression. Repeating a
+  moderately worded tendency in many settings can
+  still make it sound pervasive. Remove or soften
+  that accumulation while preserving the measured
+  tendency. Later paragraphs and the ending must
+  not inflate what was established earlier.
+- Correct unsupported causal stories between
+  traits. Do not claim that one tendency explains
+  another. Remove invented biographical events,
+  specific tastes, achievements, diagnoses or
+  claims about how other people actually regard
+  this person.
+- Preserve concrete behavior, tensions and
+  individuality. Do not make everyone bland,
+  equally balanced, admirable or damaged. Keep the
+  style natural and the perspective in second
+  person using “you.”
+- Replace technical trait names with descriptions
+  of behavior. The final portrait must not contain
+  the words openness, conscientiousness,
+  extraversion, introversion, agreeableness,
+  neuroticism, Big Five, BFI, percentile,
+  psychometric, or questionnaire. Do not state the
+  measurements or use disguised numerical
+  rankings. Use fresh language rather than
+  recognizable questionnaire phrases.
+
+DRAFT TO EDIT
+
+{{DRAFT}}
+
+Return the complete edited portrait, 1,500–2,000
+  words. Plain text only; ordinary section titles
+  are allowed, without Markdown symbols. Check the
+  final text for every prohibited term and remove
+  each occurrence by rewriting its sentence
+  naturally. Output only the edited portrait,
+  without editorial notes or explanations.

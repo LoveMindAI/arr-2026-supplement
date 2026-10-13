@@ -1,0 +1,107 @@
+{
+ "real": {
+  "partners": 0.2904041054168019,
+  "strangers": -0.002974805888334917,
+  "ci95_partners": [
+   0.2359118367380675,
+   0.3437370680489537
+  ],
+  "n_couples": 99
+ },
+ "models": {
+  "flash__numeric": {
+   "partners": 0.07363157264343036,
+   "strangers": 0.01376185770750988,
+   "ci95_partners": [
+    -0.004456871082365147,
+    0.14852252764802162
+   ],
+   "n_couples": 99,
+   "distinctive_accuracy": 0.06989069626595952
+  },
+  "flash__portrait": {
+   "partners": 0.07081686429512515,
+   "strangers": 0.0016190711462450583,
+   "ci95_partners": [
+    -0.01640016768475267,
+    0.1558836886653092
+   ],
+   "n_couples": 99,
+   "distinctive_accuracy": 0.06343974858772562
+  },
+  "flash__structured": {
+   "partners": 0.08929955511730371,
+   "strangers": 0.015383555648984705,
+   "ci95_partners": [
+    0.0014712138769053433,
+    0.17735991128230033
+   ],
+   "n_couples": 99,
+   "distinctive_accuracy": 0.08037202077845682
+  },
+  "glm__numeric": {
+   "partners": 0.12716040686666594,
+   "strangers": 0.020967530070176574,
+   "ci95_partners": [
+    0.03659534990409237,
+    0.22389297334688935
+   ],
+   "n_couples": 99,
+   "distinctive_accuracy": 0.09917840923941929
+  },
+  "glm__portrait": {
+   "partners": 0.08870094364994989,
+   "strangers": -0.001283864131417213,
+   "ci95_partners": [
+    0.006317501996084629,
+    0.17058243687468705
+   ],
+   "n_couples": 99,
+   "distinctive_accuracy": 0.07184208415978792
+  },
+  "glm__structured": {
+   "partners": 0.024154589371980686,
+   "strangers": 0.010723814229249014,
+   "ci95_partners": [
+    -0.06831881063600433,
+    0.12507186489399919
+   ],
+   "n_couples": 99,
+   "distinctive_accuracy": 0.09008321211340502
+  },
+  "sol__numeric": {
+   "partners": 0.05371092142500272,
+   "strangers": 0.006944119226403742,
+   "ci95_partners": [
+    -0.03688222848830982,
+    0.14675576797842024
+   ],
+   "n_couples": 99,
+   "distinctive_accuracy": 0.10237757163268564
+  },
+  "sol__portrait": {
+   "partners": 0.09382361161017289,
+   "strangers": 0.014008399209486167,
+   "ci95_partners": [
+    0.008185111989459804,
+    0.18273321156226288
+   ],
+   "n_couples": 99,
+   "distinctive_accuracy": 0.08972217901237693
+  },
+  "sol__structured": {
+   "partners": 0.011863395138220637,
+   "strangers": 0.014418054380553253,
+   "ci95_partners": [
+    -0.08836741383571646,
+    0.10878788733408291
+   ],
+   "n_couples": 99,
+   "distinctive_accuracy": 0.11114868100923558
+  }
+ },
+ "partner_as_predictor": {
+  "partner_real_ratings": 0.29040410541680195,
+  "ridge_from_own_personality": 0.12485468732150742
+ }
+}

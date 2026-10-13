@@ -1,0 +1,113 @@
+You are translating private BFI-44 personality
+  measurements into a narrative identity document
+  for an adult.
+Portray this particular person faithfully,
+  including combinations of tendencies that do not
+  form a familiar character type. Keep biography
+  generic and non-identifying: do not invent named
+  locations, occupation specifics, ethnicity,
+  religion, politics, sexuality, diagnoses, family
+  structure, or major life events.
+
+INTERPRETING THE MEASUREMENTS
+The five measurements are means of questionnaire
+  responses on a 1–5 agreement scale. The response
+  anchors are:
+{{RESPONSE_ANCHORS}}
+Responses have already been keyed so larger values
+  indicate more of the named tendency; do not
+  reverse them again. Read the degree literally.
+  Values near 2 and 4 express a modest lean, not
+  the strength of the endpoints. Values close to 3
+  express a slight lean or an intermediate
+  tendency. Preserve differences within these
+  ranges rather than rounding the person into a
+  category. A mean is not a percentile, a
+  percentage of occasions, or an objective measure
+  of ability or worth. The value 3.00 is the
+  arithmetic midpoint, not necessarily the
+  population average. Keep this explanation and
+  all numbers outside the portrait.
+
+BFI-44 DOMAIN MEANINGS
+Use these meanings to interpret the measurements,
+  then express them through ordinary behavior in
+  the portrait.
+- Extraversion concerns social expressiveness,
+  energy, enthusiasm, and willingness to take the
+  initiative with others. Lower scores suggest a
+  quieter, more reserved manner.
+- Agreeableness concerns consideration for others,
+  trust, generosity, forgiveness, and cooperation.
+  Lower scores suggest a more critical, less
+  accommodating interpersonal manner.
+- Conscientiousness concerns organization, care in
+  completing tasks, reliability, sustained effort,
+  and following through on plans. Lower scores
+  suggest a more disorganized or distractible
+  approach and less consistent follow-through.
+- Neuroticism concerns susceptibility to worry,
+  tension, low mood, and emotional upset. Higher
+  scores indicate greater susceptibility; lower
+  scores indicate greater emotional steadiness.
+  Describe everyday emotional tendencies without
+  diagnosing the person.
+- Openness concerns imagination, curiosity,
+  engagement with ideas, inventiveness, and
+  appreciation of art and aesthetics. Lower scores
+  suggest more conventional interests and greater
+  comfort with familiar routines. Convey the
+  degree of intellectual and aesthetic engagement
+  without assigning particular cultural tastes or
+  accomplishments.
+
+PERSONALITY MEASUREMENTS
+
+{{AGGREGATE_MEASUREMENTS}}
+
+Write 1,500–2,000 words in second person using
+  “you” throughout.
+
+WRITING REQUIREMENTS
+- Preserve the direction and magnitude of each
+  supplied tendency. Make the degree clear through
+  ordinary qualifications and the scope of the
+  behavior. A modest inclination must remain
+  modest in every paragraph; one qualified opening
+  does not permit stronger claims later.
+- Give each tendency a behavioral expression
+  grounded in its measurement. Preserve tensions
+  without inventing a psychological explanation
+  for them. A tendency in one area does not
+  determine another.
+- Do not make the person nicer, healthier, more
+  competent, or more internally consistent than
+  the measurements warrant. Do not turn a lower
+  score into a character flaw, incapacity, or
+  diagnosis.
+- Use ordinary behavioral examples: routines, work
+  habits, social timing, decisions, small
+  conflicts, emotional reactions, private
+  attention, and the way the person narrates
+  events. Let these illustrate tendencies without
+  presenting invented incidents as facts about the
+  person's life. Keep normal exceptions and
+  competing demands visible in proportion to the
+  measured degree.
+- Express the meaning in fresh, natural language.
+  Keep scores, rankings, technical psychometric
+  vocabulary, instrument titles, and recognizable
+  questionnaire wording outside the portrait. Do
+  not use the labels openness, conscientiousness,
+  extraversion, introversion, agreeableness,
+  neuroticism, or Big Five.
+- Keep the prose entirely about the person. Do not
+  refer to AI, models, assistants, systems,
+  simulations, roleplay, prompts, or research
+  participation.
+
+Write concrete, natural prose rather than a
+  clinical inventory. Plain text only, without
+  Markdown symbols. Everyday-language section
+  headers are allowed. Output only the identity
+  document.

@@ -1,0 +1,97 @@
+{
+ "items": {},
+ "summary": {
+  "flash": {
+   "rho_item_accuracy_vs_trait_signal": 0.7236956723195256,
+   "ci95": [
+    0.5957317130707936,
+    0.8157564194908349
+   ],
+   "rho_vs_ridge_item_accuracy": 0.7341395607450654,
+   "mean_item_accuracy_high_signal_half": 0.30289868947656784,
+   "mean_item_accuracy_low_signal_half": 0.15735683448448531
+  },
+  "glm52": {
+   "rho_item_accuracy_vs_trait_signal": 0.6867760170512465,
+   "ci95": [
+    0.5574316621178287,
+    0.7879084267001438
+   ],
+   "rho_vs_ridge_item_accuracy": 0.6781577240292839,
+   "mean_item_accuracy_high_signal_half": 0.2776907610669154,
+   "mean_item_accuracy_low_signal_half": 0.1456932686824284
+  },
+  "inkling": {
+   "rho_item_accuracy_vs_trait_signal": 0.6030488369937912,
+   "ci95": [
+    0.44387208538986367,
+    0.7220912728185165
+   ],
+   "rho_vs_ridge_item_accuracy": 0.6366972477064221,
+   "mean_item_accuracy_high_signal_half": 0.2469375042383976,
+   "mean_item_accuracy_low_signal_half": 0.12237300879265615
+  },
+  "mimopro": {
+   "rho_item_accuracy_vs_trait_signal": 0.6549068668334724,
+   "ci95": [
+    0.5272118777739994,
+    0.7583968658732388
+   ],
+   "rho_vs_ridge_item_accuracy": 0.6440644981929387,
+   "mean_item_accuracy_high_signal_half": 0.2394585600898075,
+   "mean_item_accuracy_low_signal_half": 0.11149428605482872
+  },
+  "minimaxm3": {
+   "rho_item_accuracy_vs_trait_signal": 0.688508942637383,
+   "ci95": [
+    0.5596177297394287,
+    0.7859664436462256
+   ],
+   "rho_vs_ridge_item_accuracy": 0.7273005282179595,
+   "mean_item_accuracy_high_signal_half": 0.2515148296542529,
+   "mean_item_accuracy_low_signal_half": 0.11890272696929195
+  },
+  "qwen37": {
+   "rho_item_accuracy_vs_trait_signal": 0.7000000000000001,
+   "ci95": [
+    0.5618658576783073,
+    0.8018772176593224
+   ],
+   "rho_vs_ridge_item_accuracy": 0.6643035863219351,
+   "mean_item_accuracy_high_signal_half": 0.276404225583395,
+   "mean_item_accuracy_low_signal_half": 0.1447712498936505
+  },
+  "sonnet5": {
+   "rho_item_accuracy_vs_trait_signal": 0.6616068946344176,
+   "ci95": [
+    0.5187318991010403,
+    0.7667574894215311
+   ],
+   "rho_vs_ridge_item_accuracy": 0.6760633861551294,
+   "mean_item_accuracy_high_signal_half": 0.2658646947950222,
+   "mean_item_accuracy_low_signal_half": 0.12603276323874854
+  },
+  "terra": {
+   "rho_item_accuracy_vs_trait_signal": 0.714892039662682,
+   "ci95": [
+    0.5925225861917376,
+    0.8052422027448561
+   ],
+   "rho_vs_ridge_item_accuracy": 0.6895653785562043,
+   "mean_item_accuracy_high_signal_half": 0.2910648865769307,
+   "mean_item_accuracy_low_signal_half": 0.15694701695497618
+  }
+ },
+ "ridge_accuracy_high_low": [
+  0.31574288445959325,
+  0.17392424153467576
+ ],
+ "ridge_rho_item_accuracy_vs_trait_signal": {
+  "rho": 0.7928551570753407,
+  "ci95": [
+   0.6950688437593308,
+   0.8596972108562976
+  ],
+  "n_items": 109
+ }
+}

@@ -1,0 +1,28 @@
+\begin{table*}[p]
+\centering\small
+\begin{tabular}{@{}lllrrr@{}}
+\toprule
+Size & Stage & Wrapper & Amplitude [95\% CI] & Direction & Distinctive [95\% CI]\\
+\midrule
+7B & Base & raw & 0.13 [0.11, 0.16] & 0.25 & -.019 [-.036, -.002]\\
+7B & Base & chat & 0.15 [0.14, 0.17] & 0.30 & -.016 [-.034, .001]\\
+7B & SFT & raw & 0.25 [0.23, 0.27] & 0.26 & -.009 [-.026, .008]\\
+7B & SFT & chat & 0.49 [0.46, 0.53] & 0.30 & -.001 [-.018, .017]\\
+7B & DPO & raw & 0.37 [0.35, 0.40] & 0.29 & -.007 [-.024, .010]\\
+7B & DPO & chat & 0.63 [0.59, 0.67] & 0.31 & .003 [-.014, .021]\\
+7B & Final & raw & 0.36 [0.33, 0.39] & 0.29 & -.008 [-.025, .009]\\
+7B & Final & chat & 0.62 [0.58, 0.66] & 0.32 & .003 [-.014, .020]\\
+\midrule
+32B & Base & raw & 0.70 [0.65, 0.75] & 0.32 & .023 [.010, .037]\\
+32B & Base & chat & 0.53 [0.49, 0.58] & 0.32 & .016 [.001, .030]\\
+32B & SFT & raw & 1.11 [1.04, 1.18] & 0.33 & .038 [.024, .053]\\
+32B & SFT & chat & 1.36 [1.27, 1.45] & 0.32 & .050 [.037, .063]\\
+32B & DPO & raw & 1.38 [1.29, 1.46] & 0.33 & .046 [.032, .060]\\
+32B & DPO & chat & 1.56 [1.46, 1.66] & 0.33 & .052 [.040, .065]\\
+32B & Final & raw & 1.43 [1.34, 1.52] & 0.33 & .046 [.032, .059]\\
+32B & Final & chat & 1.62 [1.52, 1.73] & 0.33 & .051 [.038, .064]\\
+\bottomrule
+\end{tabular}
+\caption{OLMo released-checkpoint comparison. Each cell evaluates 467 profiles using expected ratings from next-token digit probabilities. Amplitude intervals use 100 random half-samples; distinctive-accuracy intervals use 2,000 participant bootstrap samples. Wrapper and estimator are fixed across stages within each size.}
+\label{tab:olmo_ready}
+\end{table*}

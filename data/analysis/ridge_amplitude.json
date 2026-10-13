@@ -1,0 +1,62 @@
+{
+ "ESCS media (US) | 35 trait scores": {
+  "amplitude_ratio": 0.7761375747515681,
+  "ci95": [
+   0.7255199192320243,
+   0.8267552302711119
+  ],
+  "direction_r": 0.5224198520082989,
+  "n_people": 467,
+  "n_undefined_halves": 0
+ },
+ "ESCS media (US) | five domains": {
+  "amplitude_ratio": 0.9068831743138137,
+  "ci95": [
+   0.829858917270951,
+   0.9839074313566765
+  ],
+  "direction_r": 0.6890879681790159,
+  "n_people": 467,
+  "n_undefined_halves": 0
+ },
+ "Twin policy (US)": {
+  "amplitude_ratio": 1.1231064536044817,
+  "ci95": [
+   0.5232989336199173,
+   1.722913973589046
+  ],
+  "direction_r": 0.7224173915241742,
+  "n_people": 200,
+  "n_undefined_halves": 0
+ },
+ "Twin risk (US)": {
+  "amplitude_ratio": 0.9111607241326978,
+  "ci95": [
+   0.35827614297789045,
+   1.464045305287505
+  ],
+  "direction_r": 0.670907467543439,
+  "n_people": 200,
+  "n_undefined_halves": 0
+ },
+ "Harmonies music (DE)": {
+  "amplitude_ratio": 0.7639618673973719,
+  "ci95": [
+   0.5891769983907917,
+   0.9387467364039521
+  ],
+  "direction_r": 0.9828297931928506,
+  "n_people": 198,
+  "n_undefined_halves": 0
+ },
+ "Indonesia stories (ID)": {
+  "amplitude_ratio": 0.6969703471269799,
+  "ci95": [
+   0.34550083813438803,
+   1.0484398561195718
+  ],
+  "direction_r": 0.6310874629047023,
+  "n_people": 150,
+  "n_undefined_halves": 0
+ }
+}

@@ -1,0 +1,8 @@
+# Python 3.9 analysis environment. Table generation uses the standard library.
+numpy==2.0.2
+pandas==2.3.3
+scipy==1.13.1
+scikit-learn==1.6.1
+matplotlib==3.9.4
+pyreadstat==1.3.5
+requests==2.32.5

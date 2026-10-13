@@ -1,0 +1,18 @@
+\begin{table*}[!t]
+\centering\small
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+Paired contrast & Gemini-3-Flash & Qwen3.7-plus & MiniMax-M3\\
+\midrule
+4 own countertypical $-$ none & +.038 [+.027, +.049] & +.006 [$-$.003, +.014]$^{\dagger}$ & +.033 [+.023, +.044]\\
+12 own countertypical $-$ none & +.082 [+.069, +.095] & +.035 [+.023, +.046] & +.066 [+.053, +.079]\\
+12 own $-$ 4 own countertypical & +.044 [+.035, +.053] & +.029 [+.020, +.038] & +.032 [+.022, +.043]\\
+4 own countertypical $-$ 4 own typical & +.053 [+.041, +.065] & +.030 [+.020, +.040] & +.045 [+.035, +.056]\\
+4 own countertypical $-$ 4 stranger & +.091 [+.079, +.104] & +.046 [+.036, +.056] & +.059 [+.048, +.070]\\
+4 own typical $-$ none & $-$.015 [$-$.023, $-$.007] & $-$.024 [$-$.032, $-$.016] & $-$.012 [$-$.022, $-$.003]\\
+4 stranger countertypical $-$ none & $-$.053 [$-$.064, $-$.042] & $-$.040 [$-$.049, $-$.032] & $-$.025 [$-$.036, $-$.015]\\
+\bottomrule
+\end{tabular}
+\caption{Paired differences in distinctive accuracy for the personal-evidence follow-up, computed within person on the same unshown-item mask (467 people per model). Brackets are paired 95\% bootstrap intervals (2,000 resamples). The 21 contrasts (seven per model) were tested with paired $t$-tests and Holm-corrected together; all survive (adjusted $p \le .033$) except the one marked $^{\dagger}$.}
+\label{tab:exceptions_paired}
+\end{table*}

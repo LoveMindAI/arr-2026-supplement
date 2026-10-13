@@ -1,0 +1,33 @@
+\begin{table*}[tp]\centering\scriptsize\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}llrrrrr@{}}\toprule
+Direction & Predictor, input & Distinctive [95\% CI] & Wrong person & Amplitude [95\% CI] & Direction & MAE \\ \midrule
+Personality (BFI-2) $\rightarrow$ 192 skill items & GPT-5.6-Sol, numbers & 0.300 [0.277, 0.323] & 0.034 & 1.47 [1.36, 1.58] & 0.91 & 0.72 \\
+ & GPT-5.6-Sol, sentences & 0.305 [0.281, 0.328] & 0.031 & 1.52 [1.41, 1.63] & 0.91 & 0.73 \\
+ & GPT-5.6-Sol, portrait & 0.303 [0.278, 0.326] & 0.039 & 1.70 [1.56, 1.84] & 0.90 & 0.84 \\
+ & GPT-5.6-Sol, no person & 0.034 [0.017, 0.052] & 0.034 & -- & -- & 0.76 \\
+ & GLM-5.2, numbers & 0.307 [0.284, 0.328] & 0.032 & 1.74 [1.61, 1.87] & 0.90 & 0.78 \\
+ & GLM-5.2, sentences & 0.304 [0.281, 0.327] & 0.033 & 1.72 [1.60, 1.85] & 0.89 & 0.78 \\
+ & GLM-5.2, portrait & 0.305 [0.283, 0.328] & 0.039 & 1.79 [1.65, 1.93] & 0.89 & 0.86 \\
+ & GLM-5.2, no person & 0.022 [0.007, 0.037] & 0.022 & -- & -- & 0.75 \\
+ & Flash-Lite, numbers & 0.283 [0.260, 0.307] & 0.034 & 1.51 [1.40, 1.62] & 0.88 & 0.71 \\
+ & Flash-Lite, sentences & 0.280 [0.256, 0.303] & 0.032 & 1.56 [1.45, 1.67] & 0.87 & 0.72 \\
+ & Flash-Lite, portrait & 0.300 [0.275, 0.324] & 0.043 & 1.64 [1.52, 1.77] & 0.89 & 0.79 \\
+ & Flash-Lite, no person & 0.030 [0.017, 0.044] & 0.030 & -- & -- & 0.74 \\
+ & ridge (113 students) & 0.350 [0.327, 0.371] & 0.009 & 1.08 [1.01, 1.16] & 0.93 & 0.66 \\
+\midrule
+Skills (BESSI) $\rightarrow$ 60 BFI-2 items & GPT-5.6-Sol, numbers & 0.406 [0.377, 0.435] & 0.032 & 1.18 [1.11, 1.25] & 0.90 & 0.79 \\
+ & GPT-5.6-Sol, sentences & 0.405 [0.375, 0.434] & 0.032 & 1.19 [1.12, 1.25] & 0.90 & 0.79 \\
+ & GPT-5.6-Sol, portrait & 0.395 [0.361, 0.425] & 0.032 & 1.38 [1.30, 1.46] & 0.92 & 0.85 \\
+ & GPT-5.6-Sol, no person & 0.058 [0.022, 0.094] & 0.058 & -- & -- & 0.92 \\
+ & GLM-5.2, numbers & 0.388 [0.359, 0.419] & 0.031 & 1.18 [1.12, 1.25] & 0.91 & 0.84 \\
+ & GLM-5.2, sentences & 0.390 [0.362, 0.420] & 0.031 & 1.19 [1.13, 1.25] & 0.91 & 0.84 \\
+ & GLM-5.2, portrait & 0.392 [0.360, 0.423] & 0.035 & 1.43 [1.35, 1.52] & 0.93 & 0.90 \\
+ & GLM-5.2, no person & 0.077 [0.048, 0.106] & 0.077 & -- & -- & 0.99 \\
+ & Flash-Lite, numbers & 0.368 [0.335, 0.399] & 0.035 & 1.06 [0.99, 1.12] & 0.89 & 0.82 \\
+ & Flash-Lite, sentences & 0.387 [0.354, 0.419] & 0.032 & 1.15 [1.08, 1.23] & 0.90 & 0.81 \\
+ & Flash-Lite, portrait & 0.375 [0.342, 0.408] & 0.034 & 1.32 [1.24, 1.41] & 0.91 & 0.87 \\
+ & Flash-Lite, no person & 0.057 [0.020, 0.094] & 0.057 & -- & -- & 0.93 \\
+ & ridge (113 students) & 0.480 [0.451, 0.508] & 0.008 & 0.91 [0.87, 0.96] & 0.91 & 0.78 \\
+\bottomrule\end{tabular}
+\caption{College cohort (200 evaluated students; 113 reference students for averages and the ridge). Distinctive accuracy, wrong-person reassignment and amplitude as in \S\ref{sec:data}; amplitude uses the five source domains as predictors. Intervals: person bootstrap (distinctive), delete-half jackknife (amplitude; lower bounds truncated at zero).}
+\label{tab:bessi}\end{table*}

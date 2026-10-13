@@ -1,0 +1,92 @@
+\begin{table}[H]\centering\scriptsize\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{@{}llrr@{}}\toprule
+Model & Input & Amplitude [95\% CI] & Direction \\ \midrule
+Gemini-3-Flash & trait scores & 1.89 [1.76, 2.02] & 0.52 \\
+Gemini-3-Flash & Big Five portrait & 2.08 [1.94, 2.22] & 0.47 \\
+Gemini-3-Flash & full portrait & 2.04 [1.90, 2.17] & 0.48 \\
+GLM-5.2 & trait scores & 1.88 [1.75, 2.01] & 0.51 \\
+GLM-5.2 & Big Five portrait & 1.88 [1.76, 2.01] & 0.46 \\
+GLM-5.2 & full portrait & 1.88 [1.74, 2.02] & 0.47 \\
+Inkling & trait scores & 1.28 [1.19, 1.36] & 0.45 \\
+Inkling & Big Five portrait & 1.61 [1.50, 1.72] & 0.45 \\
+Inkling & full portrait & 1.62 [1.52, 1.73] & 0.45 \\
+MiMo-v2.5-pro & trait scores & 1.54 [1.42, 1.65] & 0.46 \\
+MiMo-v2.5-pro & Big Five portrait & 1.58 [1.46, 1.70] & 0.46 \\
+MiMo-v2.5-pro & full portrait & 1.59 [1.47, 1.71] & 0.46 \\
+MiniMax-M3 & trait scores & 1.52 [1.41, 1.64] & 0.47 \\
+MiniMax-M3 & Big Five portrait & 1.72 [1.61, 1.83] & 0.47 \\
+MiniMax-M3 & full portrait & 1.71 [1.59, 1.83] & 0.46 \\
+Qwen3.7-plus & trait scores & 1.92 [1.79, 2.05] & 0.50 \\
+Qwen3.7-plus & Big Five portrait & 1.84 [1.70, 1.97] & 0.47 \\
+Qwen3.7-plus & full portrait & 1.85 [1.73, 1.98] & 0.47 \\
+Claude-Sonnet-5 & trait scores & 1.37 [1.28, 1.46] & 0.47 \\
+Claude-Sonnet-5 & Big Five portrait & 1.58 [1.47, 1.69] & 0.47 \\
+Claude-Sonnet-5 & full portrait & 1.59 [1.48, 1.71] & 0.48 \\
+GPT-5.6-Terra & trait scores & 1.81 [1.69, 1.94] & 0.50 \\
+GPT-5.6-Terra & Big Five portrait & 1.97 [1.84, 2.11] & 0.48 \\
+GPT-5.6-Terra & full portrait & 1.96 [1.83, 2.09] & 0.48 \\
+\midrule
+Ridge (other people) & trait scores & 0.78 [0.73, 0.83] & 0.52 \\
+\bottomrule\end{tabular}
+\caption{Amplitude in ESCS with the 35 trait scores as predictors (109 media items, 467 people). 1 means the model spreads people apart by personality exactly as far as personality spreads their real answers; the ridge, fitted to 267 other participants' answers, is the reference. Intervals: delete-half jackknife over people; lower bounds truncated at zero.}
+\label{tab:amp35}\end{table}
+
+\begin{table*}[p]\centering\scriptsize\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}llrr@{}}\toprule
+Cohort & Model, input & Amplitude [95\% CI] & Direction \\ \midrule
+ESCS media (US) & Gemini-3-Flash, trait scores & 2.36 [2.17, 2.56] & 0.72 \\
+ & GLM-5.2, trait scores & 2.33 [2.15, 2.51] & 0.69 \\
+ & Inkling, trait scores & 1.63 [1.49, 1.77] & 0.65 \\
+ & MiMo-v2.5-pro, trait scores & 1.93 [1.75, 2.11] & 0.63 \\
+ & MiniMax-M3, trait scores & 1.90 [1.74, 2.06] & 0.65 \\
+ & Qwen3.7-plus, trait scores & 2.37 [2.17, 2.58] & 0.68 \\
+ & Claude-Sonnet-5, trait scores & 1.79 [1.64, 1.93] & 0.65 \\
+ & GPT-5.6-Terra, trait scores & 2.28 [2.08, 2.47] & 0.68 \\
+ & Ridge (other people) & 0.91 [0.83, 0.98] & 0.69 \\
+\midrule
+Twin policy (US) & GPT-5.6-Sol, numbers & 1.63 [0.77, 2.50] & 0.48 \\
+ & GPT-5.6-Sol, sentences & 1.55 [0.70, 2.41] & 0.43 \\
+ & GPT-5.6-Sol, portrait & 1.44 [0.75, 2.13] & 0.44 \\
+ & GLM-5.2, numbers & 2.19 [0.84, 3.53] & 0.43 \\
+ & GLM-5.2, sentences & 2.30 [1.13, 3.48] & 0.43 \\
+ & GLM-5.2, portrait & 1.73 [0.91, 2.55] & 0.39 \\
+ & Gemini-3.5-Flash-Lite, numbers & 1.48 [0.82, 2.13] & 0.53 \\
+ & Gemini-3.5-Flash-Lite, sentences & 1.64 [0.74, 2.54] & 0.60 \\
+ & Gemini-3.5-Flash-Lite, portrait & 1.54 [0.89, 2.19] & 0.49 \\
+ & Ridge (other people) & 1.12 [0.52, 1.72] & 0.72 \\
+\midrule
+Twin risk (US) & GPT-5.6-Sol, numbers & 1.46 [0.61, 2.31] & 0.49 \\
+ & GPT-5.6-Sol, sentences & 1.52 [0.59, 2.46] & 0.45 \\
+ & GPT-5.6-Sol, portrait & 1.40 [0.52, 2.27] & 0.57 \\
+ & GLM-5.2, numbers & 1.84 [0.42, 3.26] & 0.46 \\
+ & GLM-5.2, sentences & 1.89 [0.65, 3.12] & 0.36 \\
+ & GLM-5.2, portrait & 1.77 [0.47, 3.08] & 0.46 \\
+ & Gemini-3.5-Flash-Lite, numbers & 1.78 [0.64, 2.91] & 0.46 \\
+ & Gemini-3.5-Flash-Lite, sentences & 1.80 [0.00, 4.47] & 0.55 \\
+ & Gemini-3.5-Flash-Lite, portrait & 1.81 [0.51, 3.11] & 0.60 \\
+ & Ridge (other people) & 0.91 [0.36, 1.46] & 0.67 \\
+\midrule
+Harmonies music (German-speaking) & GPT-5.6-Sol, numbers & 2.39 [1.83, 2.94] & 0.61 \\
+ & GPT-5.6-Sol, sentences & 2.43 [1.90, 2.96] & 0.60 \\
+ & GPT-5.6-Sol, portrait & 2.16 [1.69, 2.62] & 0.56 \\
+ & GLM-5.2, numbers & 2.84 [2.25, 3.43] & 0.60 \\
+ & GLM-5.2, sentences & 2.92 [2.21, 3.63] & 0.60 \\
+ & GLM-5.2, portrait & 2.46 [1.91, 3.00] & 0.53 \\
+ & Gemini-3.5-Flash-Lite, numbers & 1.73 [1.30, 2.15] & 0.56 \\
+ & Gemini-3.5-Flash-Lite, sentences & 2.00 [1.56, 2.44] & 0.55 \\
+ & Gemini-3.5-Flash-Lite, portrait & 1.91 [1.50, 2.31] & 0.56 \\
+ & Ridge (other people) & 0.76 [0.59, 0.94] & 0.98 \\
+\midrule
+Indonesia stories (ID) & GPT-5.6-Sol, numbers & 2.55 [1.17, 3.94] & 0.41 \\
+ & GPT-5.6-Sol, sentences & 2.49 [1.04, 3.95] & 0.39 \\
+ & GPT-5.6-Sol, portrait & 2.42 [1.06, 3.78] & 0.33 \\
+ & GLM-5.2, numbers & 2.98 [1.16, 4.81] & 0.33 \\
+ & GLM-5.2, sentences & 2.82 [1.19, 4.46] & 0.33 \\
+ & GLM-5.2, portrait & 2.52 [1.09, 3.94] & 0.16 \\
+ & Gemini-3.5-Flash-Lite, numbers & 3.29 [1.43, 5.14] & 0.23 \\
+ & Gemini-3.5-Flash-Lite, sentences & 3.32 [1.31, 5.32] & 0.23 \\
+ & Gemini-3.5-Flash-Lite, portrait & 3.29 [1.73, 4.86] & 0.23 \\
+ & Ridge (other people) & 0.70 [0.35, 1.05] & 0.63 \\
+\bottomrule\end{tabular}
+\caption{Amplitude with the five domain means as predictors, every cohort. In ESCS the models received 35 trait scores; the five-domain regression is used here so that cohorts are comparable. Ridge rows: the human-trained ridge, fitted to other people's answers. Intervals: delete-half jackknife; lower bounds truncated at zero. The college cohort is in Table~\ref{tab:bessi}.}
+\label{tab:amp5}\end{table*}
